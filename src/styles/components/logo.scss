@@ -1,0 +1,17 @@
+.logo {
+  height: 16px;
+
+  transition: all 0.3s ease;
+
+  @include onTablet {
+    height: 24px;
+  }
+
+  &__img {
+    height: 100%;
+  }
+
+  @include onDesktop {
+    @include hover(transform, scale(1.2));
+  }
+}

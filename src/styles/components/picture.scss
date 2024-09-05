@@ -1,0 +1,10 @@
+.picture {
+
+  transition: all 0.3s ease;
+
+  @include onDesktop {
+    cursor: pointer;
+
+    @include hover(transform, scale(1.05));
+  }
+}

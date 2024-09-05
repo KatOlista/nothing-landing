@@ -1,0 +1,30 @@
+{
+  "name": "nothind-landing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "KatOlista",
+  "private": true,
+  "scripts": {
+    "init": "mate-scripts init",
+    "start": "mate-scripts start",
+    "build": "mate-scripts build",
+    "deploy": "mate-scripts deploy",
+    "update": "mate-scripts update",
+    "postinstall": "npm run update"
+  },
+  "devDependencies": {
+    "@mate-academy/scripts": "latest",
+    "@parcel/transformer-sass": "^2.12.0",
+    "eslint": "^9.9.1",
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.12.0",
+    "sass": "^1.78.0"
+  },
+
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "mateAcademy": {
+    "projectType": "layout"
+  }
+}
