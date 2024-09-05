@@ -6,7 +6,7 @@
   </a>
 </p>
 
-The landing page is built using responsive design principles, ensuring a smooth and visually pleasing experience across various devices, from desktops to mobile. It is a static single-page website
+The landing page is a static single-page website, ensuring a smooth and visually pleasing experience across various devices, from desktops to mobile. It is built using responsive design principles, SCSS, and HTML5.
 
 ## Getting Started
 
