@@ -1,17 +1,17 @@
 .second-background {
   min-width: 320px;
   height: 200px;
-  background-image: url(../img/bottom-bg-mobile.png);
+  background-image: url(../img/bottom-bg-mobile.webp);
   background-size: cover;
   background-position: center;
 
   @include onTablet {
     height: 400px;
-    background-image: url(../img/bottom-bg-tablet.png);
+    background-image: url(../img/bottom-bg-tablet.webp);
   }
 
   @include onDesktop {
     height: 460px;
-    background-image: url(../img/bottom-bg-desktop.png);
+    background-image: url(../img/bottom-bg-desktop.webp);
   }
 }
