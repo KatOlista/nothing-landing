@@ -63,7 +63,7 @@
     <header class="header">
       <div class="top-bar">
 
-        <a class="logo" href="#">
+        <a aria-label="logo" class="logo" href="#">
           <img
             class="logo__img"
             src="./img/logo-nothing.webp"
@@ -72,11 +72,15 @@
         </a>
 
         <div class="top-bar__icons">
-          <a href="tel: +1 234 5555-55-55" class="icon icon__icon--phone">
+          <a
+            aria-label="phone number"
+            href="tel: +1 234 5555-55-55"
+            class="icon icon__icon--phone">
           </a>
 
           <a
             href="#menu"
+            aria-label="menu"
             class="icon icon__icon--menu"
             onclick="addBlockBackdropHandler()"
           >
